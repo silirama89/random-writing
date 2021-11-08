@@ -1,18 +1,18 @@
 ## App Title
 
-#### Random Writing 
+#### _Random Writing_ 
 
 
 ## App Description
 
-*Random Writing* **generates words** belonging to the four most important word categories (nouns, adjectives, verbs and adverbs) that serve as **prompt to practice creative writing**.
+_Random Writing_ **generates words** belonging to the four most important word categories (nouns, adjectives, verbs and adverbs) that serve as **prompt to practice creative writing**.
 
 
 ## API
 
 + **Name**: Merriam-Webster Dictionary. 
 + **URL**: <https://dictionaryapi.com/>
-+ **Information to access**: words, their category and definition.
++ **Information to access**: words, and their category and definition.
 
 
 ## API Snippet
@@ -72,11 +72,11 @@
 
 * #### Desktop View
 
-⋅⋅⋅![alt text](images/1-Homepage-Computer-2x.png "Desktop View")
+![alt text](images/1-Homepage-Computer-2x.png "Desktop View")
 
 * #### Smartphone View
 
-⋅⋅⋅![alt text](/images/2-Homepage-Smartphones-2x.png "Smartphone View")
+![alt text](/images/2-Homepage-Smartphones-2x.png "Smartphone View")
 
 
 ## Minimum Viable Product (MVP)
@@ -110,7 +110,7 @@
 
 ## Priority Matrix
 
-⋅⋅⋅⋅ ![alt text](images/random-writing-matrix.png "Priority Matrix")
+![alt text](images/random-writing-matrix.png "Priority Matrix")
 
 
 ## Timeframes
@@ -128,6 +128,6 @@
 | Simplify JS *functions* syntax | 3.0 hrs |
 | Finalize CSS *stylesheet* | 3.0 hrs |
 | *Test* and *debug* | 3.0 hrs |
-| Create *functions* for *Post-MVP* features| 3.0 hrs |
-| Create CSS *stylesheet* parameters for *Post-MVP* features | 3.0 hrs |
+| Create *functions* for *post-MVP* features| 3.0 hrs |
+| Create CSS *stylesheet* parameters for *post-MVP* features | 3.0 hrs |
 | Total : | 35.5 hrs |
