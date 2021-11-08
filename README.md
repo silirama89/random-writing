@@ -1,8 +1,23 @@
-- **App Title**: Random Writing
-- **App Description**: A random-word generator to serve as a prompt to practice creative writing.
-- **API**: Merriam-Webster Dictionary API. We will use the type of word and the first definition for it.
-- **API Snippet**: A sample snippet of JSON from a successful GET request you have made to your API using Postman.
+## App Title
 
+#### Random Writing 
+
+
+## App Description
+
+*Random Writing* **generates words** belonging to the four most important word categories (nouns, adjectives, verbs and adverbs) that serve as **prompt to practice creative writing**.
+
+
+## API
+
++ **Name**: Merriam-Webster Dictionary. 
++ **URL**: <https://dictionaryapi.com/>
++ **Information to access**: words, their category and definition.
+
+
+## API Snippet
+
+```javascript
 "meta": 
   { "id":"voluminous",},
 "fl":"adjective",
@@ -51,10 +66,68 @@
         ]
     }
   ]
+```
 
-- **Wireframes**:  The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
-- **MVP**: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
-- **Post-MVP**: A list of additional/advanced features you would like to include in your app after you have met MVP.
-- **Goals**: What you plan to accomplish for each day of the project week.
-- **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as [Cloudinary](https://cloudinary.com/) or a similar hosting service.
-- **Timeframes**: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
+## Wireframes
+
+* #### Desktop View
+
+⋅⋅⋅![alt text](images/1-Homepage-Computer-2x.png "Desktop View")
+
+* #### Smartphone View
+
+⋅⋅⋅![alt text](/images/2-Homepage-Smartphones-2x.png "Smartphone View")
+
+
+## Minimum Viable Product (MVP)
+
++ After clicking on a word category, a random word will be added to the list under said category.
++ Every word's first definition can be displayed in a comment bubble after clicking on it or hovering over it.
++ Two input boxes for the title and body of the text.
++ A 'clear' button to clear the input boxes and the words displayed on the lists. 
+
+
+## Post-MVP
+
++ Local storage for stories created.
++ Ability to format the text.
++ A 'share' button.
++ A word counter.
++ Words will be checked (or highlighted) as they are included in the text.
+
+
+## Goals
+
+| **Date**  | **Goals** |
+| :-------: | --------- | 
+| 11/8  | Create HTML *boilerplate*, set JS *async* and finalize *wireframes* design |
+| 11/9  | Create other *HTML elements* (buttons, input, lists and images) and create CSS *stylesheet*. |
+| 11/10 | Create *pseudocode*, start creating other JS *functions*, and define CSS *parameters for different media*. |
+| 11/11 | Fine-tune JS *functions* and CSS *stylesheet*. |
+| 11/12 | *Test* and *debug* MVP features|
+| 11/13 | *Post-MVP* features. | 
+
+
+## Priority Matrix
+
+⋅⋅⋅⋅ ![alt text](images/random-writing-matrix.png "Priority Matrix")
+
+
+## Timeframes
+
+| **Task**  | **Duration** |
+| --------- | -------: | 
+| Choose colorscheme and fonts | 3.0 hrs |
+| Create HTML *boilerplate* | 1.0 hrs |
+| Set JS *async* function | 1.5 hrs |
+| Create other *HTML elements* | 3.0 hrs |
+| Create CSS *stylesheet* | 3.0 hrs |
+| Create *pseudocode* | 3.0 hrs |
+| Create algorithm and JS *functions* | 3.0 hrs |
+| Set CSS *different media* | 3.0 hrs |
+| Simplify JS *functions* syntax | 3.0 hrs |
+| Finalize CSS *stylesheet* | 3.0 hrs |
+| *Test* and *debug* | 3.0 hrs |
+| Create *functions* for *Post-MVP* features| 3.0 hrs |
+| Create CSS *stylesheet* parameters for *Post-MVP* features | 3.0 hrs |
+| Total : | 35.5 hrs |
