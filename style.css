@@ -28,6 +28,7 @@ h3 {
   background-color: #D6C9BC;
   color: #383736;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  // From https://getcssscan.com/css-box-shadow-examples;
   display: grid;
   grid-template-columns: 6% 19% 4% 19% 4% 19% 4% 19% 6%;
   margin: 30px 0 70px 0;
@@ -69,11 +70,12 @@ ul {
 }
 
 
-#txt {
+article {
   display: grid;
-  grid-template-columns: 5% 70% 25%;
+  grid-template-columns: 10% 80% 10%;
   background-color: #D6C9BC;
   padding: 5px;
+  m
 }
 
 #txt-title {
@@ -100,6 +102,7 @@ ul {
   font-family: 'Cutive', serif;
   font-style: bold;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  // From https://getcssscan.com/css-box-shadow-examples
   height: 25px;
   text-align: center;
 }
@@ -112,25 +115,54 @@ ul {
 #btn-strip {
   background-color: #D6C9BC;
   display: grid;
-  grid-template-columns: 5% 5% 5% 5% 40% 10% 5% 25%;
+  grid-template-columns: 5% 5% 5% 5% 40% 10% 5% 5%;
+  grid-
 }
 
 #clear-btn {
   grid-column: 2/3;
+  min-width: 50px;
+  font-size: x-small;
+  text-align: center; 
+  padding: auto;
 }
 
 #save-btn {
   grid-column: 3/4;
+  min-width: 50px;
+  font-size: x-small;
+  text-align: center; 
+  padding: auto;
 }
 
 #share-btn {
   grid-column: 4/5;
+  min-width: 50px;
+  font-size: x-small;
+  text-align: center; 
+  padding: auto;
 }
 
+.counter{
+
+
+}
+#counter {
+  
+}
 #count-label {
   grid-column: 6/7;
+  font-family: 'Special Elite', cursive;
+  font-size: x-small;
+  text-align: center; 
+  padding: auto;
+  width: fit-content;
 }
 
 #word-count {
   grid-column: 7/8;
+  font-family: 'Special Elite', cursive;
+  font-size: x-small;
+  text-align: center; 
+  padding: auto;
 }
