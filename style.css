@@ -1,5 +1,4 @@
 
- 
 
 body {
   background-color: #D6C9BC;
@@ -8,161 +7,163 @@ body {
 header{
   background-color: #BFAA95;
   text-align: center;
+  margin-left: 9px;
+  margin-right: 9px;
+  min-height: 150px;
+  display: grid;
+  grid-template-rows: 65% 35%;
 }
+
 h1 {
   color: #0F0601;
+  font-size: 65px;
   font-family: 'Special Elite', cursive;
-  padding-top: 20px;
-  padding-bottom: 1px;
+  grid-row: 1/2;
+  align-content: top;
+  margin-bottom: 0%;
 }
 
 h3 {
   color: #080301;
+  font-size: 20px;
   font-family: 'Courier prime', monospace;
   font-style: italic;
-  padding-bottom: 40px;
-  margin-bottom: 0;
+  grid-row: 2/3;
+  align-self: top;
 }
 
-.generator {
+#generator {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  column-gap: 4%;
+  min-height: 150px;
   background-color: #D6C9BC;
   color: #383736;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-  // From https://getcssscan.com/css-box-shadow-examples;
-  display: grid;
-  grid-template-columns: 6% 19% 4% 19% 4% 19% 4% 19% 6%;
-  margin: 30px 0 70px 0;
-}
-
-.box{
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 10px;
+  padding-right:10px;
+  padding-left: 10px;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 #noun-box {
-  grid-column: 2/3;
-  height: 100px;
-  margin: 15px 0 30px 0;
-  justify-content: center;
+  grid-column: 1;
+  display: grid;
+  grid-template-rows: 40px auto;
+  align-self: top;
 }
 
 #adj-box {
-  grid-column: 4/5;
-  margin: 15px 0 30px 0;
-
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 40px auto;
+  align-self: top;
 }
 
 #verb-box {
-  grid-column: 6/7;
-  margin: 15px 0 30px 0;
-
+  grid-column: 3;
+  display: grid;
+  grid-template-rows: 40px auto;
+  align-self: top;
 }
 
 #adv-box {
-  grid-column: 8/9;
-  margin: 15px 0 30px 0;
-
+  grid-column: 4;
+  display: grid;
+  grid-template-rows: 40px auto;
+  align-self: top;
 }
 
 ul {
-  height: 200px;
+  align-self: top;
+  font-style: bold;
+  list-style-type: none;
+  margin-top: 0%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  min-height: 70px;
+  max-height: min-content;
   font-family: 'Lekton', sans-serif;
+  justify-items: center;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
+.txtlog {
+  display: grid;
+  grid-template-rows: 50px 150px 40px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h5 {
+  grid-row: 1/2;
+  text-align: center;
+  color: #080301;
+  font-family: 'Courier prime', monospace;
+  font-size: x-large;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+}
+
+#clear-btn {
+  grid-row: 3/4;
+  height: 25px;
+  text-align: center;
+  justify-self: right;
+  margin-left: ;
+}
 
 article {
+  grid-row: 2/3;
   display: grid;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 30px 100px; 
+  row-gap: 5px;
   background-color: #D6C9BC;
   padding: 5px;
-  m
 }
 
 #txt-title {
-  grid-column: 2/3;
   grid-row: 1/2;
   height: 30px;
-  align-content: center;
+  align-self: center;
+  padding-left: 1% ;
   font-family: 'Special Elite', cursive;
   font-style: italic;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 #txt-story {
-  grid-column: 2/3;
   grid-row: 2/3;
   height: 100px;
   align-content: justify;
+  padding-left: 1% ;
   font-family: 'Courier Prime', monospace;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
 }
 
 .btn {
   font-family: 'Cutive', serif;
   font-style: bold;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  // From https://getcssscan.com/css-box-shadow-examples
-  height: 25px;
+  height: 30px;
   text-align: center;
+  justify-self: center;
+  align-self: center;
+  padding: 5px 5px 0px 5px;
+  margin: 0%;
 }
 
 .gen-btn {
   font-family: 'Cutive', serif;
   justify-self: center;
+  grid-row: 1/2;
+  align-self: bottom;
+  margin-top: 5px;
 }
 
-#btn-strip {
-  background-color: #D6C9BC;
-  display: grid;
-  grid-template-columns: 5% 5% 5% 5% 40% 10% 5% 5%;
-  grid-
-}
-
-#clear-btn {
-  grid-column: 2/3;
-  min-width: 50px;
-  font-size: x-small;
-  text-align: center; 
-  padding: auto;
-}
-
-#save-btn {
-  grid-column: 3/4;
-  min-width: 50px;
-  font-size: x-small;
-  text-align: center; 
-  padding: auto;
-}
-
-#share-btn {
-  grid-column: 4/5;
-  min-width: 50px;
-  font-size: x-small;
-  text-align: center; 
-  padding: auto;
-}
-
-.counter{
-
-
-}
-#counter {
-  
-}
-#count-label {
-  grid-column: 6/7;
-  font-family: 'Special Elite', cursive;
-  font-size: x-small;
-  text-align: center; 
-  padding: auto;
-  width: fit-content;
-}
-
-#word-count {
-  grid-column: 7/8;
-  font-family: 'Special Elite', cursive;
-  font-size: x-small;
-  text-align: center; 
-  padding: auto;
-}
