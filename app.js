@@ -1,10 +1,7 @@
 // API key
-
 const key = '94e8bd4e-6d31-42b8-b991-02fec8748bd0'
 
-
 // buttons
-
 const nounBtn = document.querySelector('#noun-btn')
 const adjBtn = document.querySelector('#adj-btn')
 const verbBtn = document.querySelector('#verb-btn')
@@ -17,37 +14,11 @@ const adjList = document.querySelector('#adj-list')
 const verbList = document.querySelector('#verb-list')
 const advList = document.querySelector('#adv-list')
 
-// let functionalLabel = ${wordData.fl}
 
-// clear button
-clearBtn.addEventListener("click", function () {
-  let nouns = document.getElementById('noun-list')
-  while (nouns.firstChild) {
-    nouns.removeChild(nouns.firstChild)
-  }
-  let adjs = document.getElementById('adj-list')
-  while (adjs.firstChild) {
-    adjs.removeChild(adjs.firstChild)
-  }
-  const verbs = document.getElementById('verb-list')
-  while (verbs.firstChild) {
-    verbs.removeChild(verbs.firstChild)
-  }
-  const advs = document.getElementById('adv-list')
-  while (advs.firstChild) {
-    advs.removeChild(advs.firstChild)
-  }
-  const txtTitle = document.getElementById('txt-title')
-  txtTitle.value = ''
-  const txtStory = document.getElementById('txt-story')
-  txtStory.value = ''
-})
-
-
-// getting required parameter ("word") through random-word module
-
+// required parameter ("word") through random-word module
 import randomWords from 'https://cdn.skypack.dev/random-words';
 const word = randomWords()
+
 
 // event listeners for generator buttons
 
@@ -181,3 +152,40 @@ async function fetchAdv(word) {
     console.log(error);
   }
 }
+
+// clear button
+clearBtn.addEventListener("click", function () {
+  let nouns = document.getElementById('noun-list')
+  while (nouns.firstChild) {
+    nouns.removeChild(nouns.firstChild)
+  }
+  let adjs = document.getElementById('adj-list')
+  while (adjs.firstChild) {
+    adjs.removeChild(adjs.firstChild)
+  }
+  const verbs = document.getElementById('verb-list')
+  while (verbs.firstChild) {
+    verbs.removeChild(verbs.firstChild)
+  }
+  const advs = document.getElementById('adv-list')
+  while (advs.firstChild) {
+    advs.removeChild(advs.firstChild)
+  }
+  const txtTitle = document.getElementById('txt-title')
+  txtTitle.value = 'Write the title here'
+  const txtStory = document.getElementById('txt-story')
+  txtStory.value = 'Write your story here'
+})
+
+
+// // clear "textarea" on click
+// const txtTitle = document.getElementById('txt-title')
+// const txtStory = document.getElementById('txt-story')
+
+// txtTitle.addEventListener.('click', () => {
+//   txtTitle.value = ''
+// }).eventTarget({ once: true })
+
+// txtStory.E.addEventListener('click', function () {
+//   txtStory.value = '';
+// });

@@ -27,42 +27,33 @@
     <h3>A creative writing prompter and log</h3>
   </header>
 
-  <div id="generator">
+  <div class="generator">
 
-    <div id="noun-box" class="box">
-      <button id="noun-btn" class="btn" class="gen-btn">nouns</button>
-      <ul id="noun-list" class="list">
-      </ul>
-    </div>
+    <h5 id="gen-header">Word Generator</h5>
 
-    <div id="adj-box" class="box">
-      <button id="adj-btn" class="btn" class="gen-btn">adjectives</button>
-      <ul id="adj-list" class="list">
-      </ul>
-    </div>
+    <button id="noun-btn" class="btn" class="gen-btn">nouns</button>
+    <ul id="noun-list" class="list">
+    </ul>
 
-    <div id="verb-box" class="box">
-      <button id="verb-btn" class="btn" class="gen-btn">verbs</button>
-      <ul id="verb-list" class="list">
-      </ul>
-    </div>
+    <button id="adj-btn" class="btn" class="gen-btn">adjectives</button>
+    <ul id="adj-list" class="list">
+    </ul>
 
-    <div id="adv-box">
-      <button id="adv-btn" class="btn" class="gen-btn">adverbs</button>
-      <ul id="adv-list" class="list">
-      </ul>
-    </div>
+    <button id="verb-btn" class="btn" class="gen-btn">verbs</button>
+    <ul id="verb-list" class="list">
+    </ul>
+
+    <button id="adv-btn" class="btn" class="gen-btn">adverbs</button>
+    <ul id="adv-list" class="list">
+    </ul>
 
   </div>
 
   <div class="txtlog">
 
     <h5 id="txtlog-header">Creative Writing Log</h5>
-    <article>
-      <input class='txt' id="txt-title" placeholder="Write the title here">
-      <input class='txt' id="txt-story" placeholder="Write your story here">
-    </article>
-
+    <textarea id="txt-title">Write the title here</textarea>
+    <textarea id="txt-story">Write your story here</textarea>
     <button id="clear-btn" class="btn">clear</button>
     <!-- <button id="save-btn" class="btn" class="txt">save</button>
       <button id="share-btn" class="btn" class="txt">share</button> -->
