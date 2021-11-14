@@ -81,14 +81,14 @@ _Random Writing_ **generates words** belonging to the four most important word c
 
 ## Minimum Viable Product (MVP)
 
-+ After clicking on a word category, a random word will be added to the list under said category.
-+ Every word's first definition can be displayed in a comment bubble after clicking on it or hovering over it.
-+ Two input boxes for the title and body of the text.
-+ A 'clear' button to clear the input boxes and the words displayed on the lists. 
++ Clicking on a button from the word generator section will create a random word, request a response from the Merriam-Webster API that matches the button's category by calling an async function, and add the word to a list for said category. 
++ Two text boxes, for the title and body of the story respectively, allow the user to write a story using the generated words as prompts.
++ Clicking the 'clear' button will empty the lists and reset the content of the text boxes. 
 
 
 ## Post-MVP
 
++ Every word's first definition can be displayed in a comment bubble after hovering over it. 
 + Local storage for stories created.
 + Ability to format the text.
 + A 'share' button.
@@ -115,19 +115,19 @@ _Random Writing_ **generates words** belonging to the four most important word c
 
 ## Timeframes
 
-| **Task**  | **Duration** |
-| --------- | -------: | 
-| Choose colorscheme and fonts | 3.0 hrs |
-| Create HTML *boilerplate* | 1.0 hrs |
-| Set JS *async* function | 1.5 hrs |
-| Create other *HTML elements* | 3.0 hrs |
-| Create CSS *stylesheet* | 3.0 hrs |
-| Create *pseudocode* | 3.0 hrs |
-| Create algorithm and JS *functions* | 3.0 hrs |
-| Set CSS *different media* | 3.0 hrs |
-| Simplify JS *functions* syntax | 3.0 hrs |
-| Finalize CSS *stylesheet* | 3.0 hrs |
-| *Test* and *debug* | 3.0 hrs |
-| Create *functions* for *post-MVP* features| 3.0 hrs |
-| Create CSS *stylesheet* parameters for *post-MVP* features | 3.0 hrs |
+| **Task**  | **Estimated duration** | **Actual Duration**| 
+| --------- | -------: | ------:|
+| Choose colorscheme and fonts | 3.0 hrs | 1.5 hrs |
+| Create HTML *boilerplate* | 1.0 hrs | 1.5 hrs |
+| Set JS *async* function | 1.5 hrs | 3.5 hrs |
+| Create other *HTML elements* | 3.0 hrs | 1.5 hrs |
+| Create CSS *stylesheet* | 3.0 hrs | 1.5 hrs |
+| Create *pseudocode* | 3.0 hrs | 2.0 hrs |
+| Create algorithm and JS *functions* | 3.0 hrs | 3.5 hrs|
+| Set CSS *different media* | 3.0 hrs | 2.0 hrs |
+| Simplify JS *functions* syntax | 3.0 hrs | 2.00 hrs |
+| Finalize CSS *stylesheet* | 3.0 hrs | 3.0 hrs |
+| *Test* and *debug* | 3.0 hrs | 3.5 hrs |
+| Create *functions* for *post-MVP* features| 3.0 hrs | N/A |
+| Create CSS *stylesheet* parameters for *post-MVP* features | 3.0 hrs | N/A |
 | Total : | 35.5 hrs |
