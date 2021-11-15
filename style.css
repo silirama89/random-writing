@@ -4,9 +4,10 @@ html {
   background-color: #D6C9BC;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 body {
@@ -193,7 +194,7 @@ textarea {
     background-size: cover;
     height: 100%;
     min-height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
