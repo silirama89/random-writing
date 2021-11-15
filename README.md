@@ -12,7 +12,9 @@ _Random Writing_ **generates words** belonging to the four most important word c
 
 + **Name**: Merriam-Webster Dictionary. 
 + **URL**: <https://dictionaryapi.com/>
-+ **Information to access**: words, and their category and definition.
++ **Information to access**: 
+++ meta.id: word to search
+++ fl: category of the word
 
 
 ## API Snippet
@@ -61,7 +63,7 @@ _Random Writing_ **generates words** belonging to the four most important word c
                         ]
                     }
                 }
-            ],
+            ]
           ]
         ]
     }
@@ -76,7 +78,7 @@ _Random Writing_ **generates words** belonging to the four most important word c
 
 * #### Smartphone View
 
-![alt text](/images/2-Homepage-Smartphones-2x.png "Smartphone View")
+![alt text](/images/2-Homepage-Smartphones-2x.png "Mobile View")
 
 
 ## Minimum Viable Product (MVP)
