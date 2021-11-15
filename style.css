@@ -228,7 +228,7 @@ textarea {
     grid-template-rows: 40px 25px content 25px content;
     row-gap: 2px;
     min-height: content;
-    margin: 20px 5px 0px 5px;
+    margin: 10px 5px 0px 5px;
   }
   
   h5 {
@@ -298,7 +298,7 @@ textarea {
   
   .txtlog {
     max-width: 90%;
-    margin-top: 20px;
+    margin-top: 10px;
     height: fit-content;
   }
   
