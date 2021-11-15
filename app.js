@@ -61,12 +61,10 @@ async function fetchNoun(word) {
     while (notFound) {
       let res = await axios.get(`https://dictionaryapi.com/api/v3/references/collegiate/json/${word}?&key=94e8bd4e-6d31-42b8-b991-02fec8748bd0&sort`);
       let foundMatches = res.data;
-      console.log(foundMatches)
       if (foundMatches[0].fl === 'noun') {
         const match = foundMatches[0]
         const meta = match.meta
         const id = meta.id
-        console.log(id)
         foundWord = id
         notFound = false
       } else {
@@ -74,7 +72,7 @@ async function fetchNoun(word) {
       }
     } return foundWord
   } catch (error) {
-    console.log(error);
+    console.log(SpeechSynthesisErrorEvent)
   }
 }
 
@@ -86,12 +84,10 @@ async function fetchAdj(word) {
     while (notFound) {
       let res = await axios.get(`https://dictionaryapi.com/api/v3/references/collegiate/json/${word}?&key=94e8bd4e-6d31-42b8-b991-02fec8748bd0&sort`);
       let foundMatches = res.data;
-      console.log(foundMatches)
       if (foundMatches[0].fl === 'adjective') {
         const match = foundMatches[0]
         const meta = match.meta
         const id = meta.id
-        console.log(id)
         foundWord = id
         notFound = false
       } else {
@@ -111,12 +107,10 @@ async function fetchVerb(word) {
     while (notFound) {
       let res = await axios.get(`https://dictionaryapi.com/api/v3/references/collegiate/json/${word}?&key=94e8bd4e-6d31-42b8-b991-02fec8748bd0&sort`);
       let foundMatches = res.data;
-      console.log(foundMatches)
       if (foundMatches[0].fl === 'verb') {
         const match = foundMatches[0]
         const meta = match.meta
         const id = meta.id
-        console.log(id)
         foundWord = id
         notFound = false
       } else {
@@ -136,12 +130,10 @@ async function fetchAdv(word) {
     while (notFound) {
       let res = await axios.get(`https://dictionaryapi.com/api/v3/references/collegiate/json/${word}?&key=94e8bd4e-6d31-42b8-b991-02fec8748bd0&sort`);
       let foundMatches = res.data;
-      console.log(foundMatches)
       if (foundMatches[0].fl === 'adverb') {
         const match = foundMatches[0]
         const meta = match.meta
         const id = meta.id
-        console.log(id)
         foundWord = id
         notFound = false
       } else {
@@ -176,16 +168,3 @@ clearBtn.addEventListener("click", function () {
   const txtStory = document.getElementById('txt-story')
   txtStory.value = 'Write your story here'
 })
-
-
-// // clear "textarea" on click
-// const txtTitle = document.getElementById('txt-title')
-// const txtStory = document.getElementById('txt-story')
-
-// txtTitle.addEventListener.('click', () => {
-//   txtTitle.value = ''
-// }).eventTarget({ once: true })
-
-// txtStory.E.addEventListener('click', function () {
-//   txtStory.value = '';
-// });
