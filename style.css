@@ -1,12 +1,16 @@
 
-
-body {
+html {
   background: url('images/patrick-fore-0gkw_9fy0eQ-unsplash.jpg');
+  background-color: #D6C9BC;
   background-size: cover;
+  height: 100%;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: center;
-  background-color: #D6C9BC;
+}
+
+body {
+  align-self: center;
   justify-content: center;
 }
 
@@ -128,6 +132,7 @@ ul {
 .txtlog {
   background-color: rgba(214, 201, 188, 0.7);
   justify-self: center;
+  margin-bottom: 1%;
   display: grid;
   grid-template-rows: 50px 45px min-content 40px;
   row-gap: 3px;
@@ -155,8 +160,7 @@ textarea {
 
 #txt-story {
   grid-row: 3;
-  min-height: 50px;
-  max-height: min-content;
+  min-height: 280px;
   text-justify: justify;
   font-family: 'Courier Prime', monospace;
 }
@@ -182,14 +186,17 @@ textarea {
 }
 
 @media screen and (max-width: 500px) {
-
-  body {
+  
+  html {
     background: url('images/limepic-PfqPmJyKsKQ-unsplash.jpg');
+    background-color: #D6C9BC;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: center;
   }
+  
   header {
     max-height: content;
     width: 100%;
@@ -290,6 +297,7 @@ textarea {
   .txtlog {
     max-width: 90%;
     margin-top: 30px;
+    height: 300px;
   }
   
   #txtlog-header{
@@ -306,7 +314,8 @@ textarea {
   }
   
   #txt-story {
-    height: 100px;
+    min-height: 150px;
+    max-height: fit-content ;
     font-size: 16px;
   }
   
