@@ -12,8 +12,8 @@ _Random Writing_ **generates words** belonging to the four most important word c
 + **Name**: Merriam-Webster Dictionary. 
 + **URL**: <https://dictionaryapi.com/>
 + **Information to access**: 
-  + - meta.id: word to search
-  + - fl: category of the word
+  - meta.id: word to search
+  - fl: category of the word
 
 
 ## API Snippet
