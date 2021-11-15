@@ -1,6 +1,5 @@
-## App Title
 
-#### _Random Writing_ 
+# [Random Writing] (https://silirama89.github.io/random-writing/)
 
 
 ## App Description
