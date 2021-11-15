@@ -115,19 +115,19 @@ _Random Writing_ **generates words** belonging to the four most important word c
 
 ## Timeframes
 
-| **Task**  | **Estimated duration** | **Actual Duration**| 
+| **Task**  | **Estimated duration** | **Actual duration**| 
 | --------- | -------: | ------:|
-| Choose colorscheme and fonts | 3.0 hrs | 1.5 hrs |
-| Create HTML *boilerplate* | 1.0 hrs | 1.5 hrs |
-| Set JS *async* function | 1.5 hrs | 3.5 hrs |
-| Create other *HTML elements* | 3.0 hrs | 1.5 hrs |
-| Create CSS *stylesheet* | 3.0 hrs | 1.5 hrs |
+| Choose colorscheme and fonts | 3.0 hrs | 2.0 hrs |
+| Create HTML *boilerplate* | 1.0 hrs | 1.0 hrs |
+| Set JS *async* function | 1.5 hrs | 4.5 hrs |
+| Create other *HTML elements* | 3.0 hrs | 2.0 hrs |
+| Create CSS *stylesheet* | 3.0 hrs | 3.5 hrs |
 | Create *pseudocode* | 3.0 hrs | 2.0 hrs |
-| Create algorithm and JS *functions* | 3.0 hrs | 3.5 hrs|
-| Set CSS *different media* | 3.0 hrs | 2.0 hrs |
-| Simplify JS *functions* syntax | 3.0 hrs | 2.00 hrs |
-| Finalize CSS *stylesheet* | 3.0 hrs | 3.0 hrs |
+| Create algorithm and JS *functions* | 3.0 hrs | 3.0 hrs|
+| Set CSS *different media* | 3.0 hrs | 3.5 hrs |
+| Simplify JS *functions* syntax | 3.0 hrs | 3.5 hrs |
+| Finalize CSS *stylesheet* | 3.0 hrs | 4.0 hrs |
 | *Test* and *debug* | 3.0 hrs | 3.5 hrs |
 | Create *functions* for *post-MVP* features| 3.0 hrs | N/A |
 | Create CSS *stylesheet* parameters for *post-MVP* features | 3.0 hrs | N/A |
-| Total : | 35.5 hrs |
+| Project Total Hours  | 35.5 hrs | 32.5 hrs |
