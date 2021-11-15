@@ -134,7 +134,7 @@ ul {
   justify-self: center;
   margin-bottom: 1%;
   display: grid;
-  grid-template-rows: 40px 45px content 40px;
+  grid-template-rows: 40px 45px content 30px;
   row-gap: 3px;
   padding: 30px 5% 30px 5%;
 }
@@ -192,6 +192,7 @@ textarea {
     background-color: #D6C9BC;
     background-size: cover;
     height: 100%;
+    min-height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
@@ -227,14 +228,14 @@ textarea {
     grid-template-rows: 40px 25px content 25px content;
     row-gap: 2px;
     min-height: content;
-    margin: 30px 5px 0px 5px;
+    margin: 20px 5px 0px 5px;
   }
   
   h5 {
     text-decoration: underline;
     font-size: x-large;
     margin-top: 0%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   #gen-header{
@@ -297,8 +298,8 @@ textarea {
   
   .txtlog {
     max-width: 90%;
-    margin-top: 30px;
-    height: adpx;
+    margin-top: 20px;
+    height: fit-content;
   }
   
   #txtlog-header{
@@ -316,13 +317,13 @@ textarea {
   
   #txt-story {
     min-height: 50px;
-    max-height: content ;
+    max-height: 100px ;
     font-size: 16px;
   }
   
   #clear-btn {
     grid-row: 4;
-    height: 25px;
+    height: 20px;
     text-align: bottom;
     justify-self: right;
     margin-top: 3px;
